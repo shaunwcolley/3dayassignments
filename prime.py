@@ -15,4 +15,7 @@ def is_prime(n):
         divisor += 1
     else:
         return True
-print(is_prime(num))
+if is_prime(num) == True:
+    print("You have a prime!")
+elif is_prime(num) == False:
+    print("Sorry not a prime")
